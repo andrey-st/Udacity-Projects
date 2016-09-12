@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML and CSS Takeaways</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<h1 class="pageTitle">Important HTML and CSS Conepts</h1>
+	
+	<div class="lessonContent">
+		<h2 class="lessonTitle">Lesson 1: The Basics of the Web and HTML</h2>		
+		<div class="bulletContent">
+			<h3 class="bulletTitle"> What is the Web? </h3>
+			<p> 
+				The Web is composed largely of HTML documents, which are used by browsers to interpret web pages. <br><br>
+				<span class="bold">Web consists of the following elements:</span>
+				<ul>
+					<li>Comptuer & Browser</li>
+					<li>Internet</li>
+					<li>HTTP</li>
+					<li>Servers</li>
+				</ul>
+			</p>
+		</div>
+		<div class="bulletContent">
+			<h3 class="bulletTitle"> HTML Elements </h3>
+			<p class="bulletContent">		 
+				HTML elemets are used to format the way content is displayed on a web page, or to include external content in the page. Most elements consist of opening and closing tags, whereas others don't have closing tag (since they don't have content, and are called void elements. Examples: <br>
+				<span class="italic">
+					<ul>
+						<li>&ltp&gtcontent&lt/p&gt</li>
+						<li>&ltimg src ="..."&gt</li>
+					</ul>
+				</span>
+			</p>		
+		</div>
+		<div class="bulletContent">	
+			<h3 class="bulletTitle"> HTML Attributes </h3>
+			<p> 
+				HTML Attributes are assigned to elements and add further information. Examples: <br> 
+				<span class="italic">
+					<ul>
+						<li>&lta href="www.google.com"&gt text &lt/a&gt</li>
+						<li>&ltimg src="www.test.com/img" alt = "no such pic"&gt</li>
+					</ul>
+				</span>
+			</p>		
+		</div>
+		<div class="bulletContent">	
+			<h3 class="bulletTitle"> Inline and Box Container Elements </h3> 
+			<p>
+				Inline container elements does not create distinct "boxes" on the page. Such elements are: 
+				<span class="italic">
+					<ul>
+						<li>&ltbr&gt</li>
+						<li>&ltspan&gtcontent&lt/span&gt</li>
+					</ul>
+				</span>
+				Box Container Elements define "designated areas". Such elements are: 
+				<span class="italic">
+					<ul>
+						<li>&ltp&gtcontent&lt/p&gt</li>
+						<li>&ltdiv&gtcontent&lt/div&gt</li>
+					</ul>
+				</span>
+			</p>
+		</div>	
+	</div>
+
+	<div class="lessonContent">
+		<h2 class="lessonTitle">Lesson2: Creating a Structured Document</h2>
+		<div class="bulletContent">
+			<h3 class="bulletTitle">Two Main Types of Elements</h3>
+			<p>
+				HTML Elements are either inline, or a block. Blocks form an "invisible" rectangle around the content included in them. 
+			</p>
+			
+			<p>
+				<h3 class="bulletTitle">Tree-like structures</h3>
+				Thanks to the block elements html documents can form a tree-like structure - in each block can be included multiple sub-blocks, in which in turn can be included sub-sub-blocks, etc. Creating these blocks and sub-blocks is refered as <span class="bold">Boxifying</span>. 
+			</p>
+		</div>	
+		<div class="bulletContent">
+			<h3 class="bulletTitle">HTML, CSS, DOM</h3>
+			<p>
+				HTML is the language of the Web - it sets the structure of a web page. The browser uses the Document Object Model (DOM) to visualize the tree-like structure of the web page. CSS is used to define the style of the content within HTML - font, color, borders, etc.  
+			</p>
+		</div>
+		<div class="bulletContent">	
+			<h3 class="bulletTitle">Relationship between HTML and Boxes</h3>
+			<p>
+				The text version of the HTML documents are structured with changing identations in order to reflect the tree-like structure of the HTML document.   
+			</p>
+		</div>
+		<div class="bulletContent">	
+			<p>
+				<h3 class="bulletTitle">Text Editors that Help Write HTML Code More Efficiently</h3>
+				Text editors make life easier - for example some text editors automatically generate a closing HTML tag when you write an opening tag.   
+			</p>
+		</div>
+	</div>
+
+	<div class="lessonContent">
+		<h2 class="lessonTitle">Lesson 3: Adding CSS Style and HTML Strcuture</h2>
+		<div class="bulletContent">
+			<h3 class="bulletTitle">What is CSS?</h3>
+			<p>
+				CSS code is used to add style to HTML documents. CSS code can be added in the &lthead&gt tag of an HTML document, as attributes in tags, or in a separate .css document. If CSS is added in a separate document, it has to be called from the &lthead&gt tag in the html document using the &ltlink&gt tag.  
+			</p>
+		</div>
+		<div class="bulletContent">
+			<h3 class="bulletTitle">How does CSS works?</h3>
+			<p>
+				CSS assigns style to the html document using the so-called <span class="bold">selectors</span>. Selectors specify to which element in the html document the style should be applied. Thus, the following terms are important to be remembered: <br>
+				<ul>
+					<li><span class="bold">Rule:</span> a line of CSS code describing the value that a certain attribute should take.</li>
+					<li><span class="bold">Property:</span> The property you want to change.</li>
+					<li><span class="bold">Value:</span> The value that you want to assign to the attribute.</li>
+					<li><span class="bold">Selector:</span> The name that you use to in order to target the elements that are assigned to a class or id attribute in the HTML.</li>
+					<li><span class="bold">Class:</span> A class refers to a group of elements that can be styled together. Class names should not contain periods or any other punctuation marks such as class="1.1"</li>
+					<li><span class="bold">ID:</span> ID's are unique identifiers that uniquely identifies an element in HTML.</li>
+				</ul>
+			</p>
+		</div>
+		<div class="bulletContent">
+			<h3 class="bulletTitle">The Box Model</h3>
+			<p>
+				HTML elements are boxes, which consist of four elements:<br>
+				<ul>
+					<li><span class="bold">Content</span> - pure content size, e.g. text/image dimensions</li>
+					<li><span class="bold">Padding</span> - space between the border and the content</li>
+					<li><span class="bold">Border</span> - border of the Box</li>
+					<li><span class="bold">Margin</span> - space between the border and other Boxes</li>
+				</ul>
+			</p>
+			<p>
+				Width of a box equals the sum of content, padding and border widths. This makes manupilation of elements tough. In order to make it easier, there are two techniques used to help deal with sizing issues:<br>
+				<ol>
+					<li>Set sizes in terms of percentages rather than pixels; add max-width</li>
+					<li>Set the box-sizing attribute to border-box for every element - this keeps the width of the box the same regardless of the changes made to the border and the padding. (browser-specific prefixes should be added with this)</li>
+				</ol>
+			</p>
+		</div>
+		<div class="bulletContent">
+			<h3 class="bulletTitle">Box Positioning</h3>
+			<p>
+				Divs are block elements (as opposed to inline), so by default they take up the entire width of a page. Adding the rule <span class"bold"> display: flex; </span> to the appropriate CSS will override this behavior and let divs appear next to each other. <span class="bold">To use this size of the box should be smaller than the default 100%. </span>
+
+			</p>
+		</div>
+	</div>
+</body>
+</html>
