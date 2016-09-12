@@ -1,0 +1,54 @@
+body{
+	background-color: rgb(255,225,200);
+	font-family: verdana;
+}
+
+h1{
+	text-align: center;
+	color:rgb(50,50,50);
+
+}
+
+.lessonContent{
+	background-color: rgb(145,70,0);
+	padding-left: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-right: 2%; 
+	border-radius: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-radius: 30px;
+
+}
+
+.lessonTitle{
+	color:white;
+}
+
+.bulletContent{
+	background-color: rgb(255,225,200);
+	padding-left: 15px;
+	padding:10px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.bulletTitle{
+
+	border-bottom-style: solid;
+    border-width: 1px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.bold{
+	font-weight: bold;
+}
+
