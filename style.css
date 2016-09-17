@@ -1,7 +1,7 @@
 
 body{
 	background-color: rgb(255,225,200);
-	font-family: verdana;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1{
@@ -12,10 +12,7 @@ h1{
 
 .intro{
 	background-color: rgb(145,70,0);
-	padding-left: 2%;
-	padding-top: 0.5%;
-	padding-bottom: 0.5%;
-	padding-right: 2%; 
+	padding: 0.5% 2%; 
 	border-radius: 15px;
 	margin-bottom: 20px;
 	margin-top: 20px;
@@ -36,10 +33,7 @@ h1{
 
 .lessonContent{
 	background-color: rgb(145,70,0);
-	padding-left: 2%;
-	padding-top: 0.5%;
-	padding-bottom: 0.5%;
-	padding-right: 2%; 
+	padding: 0.5% 2%;  
 	border-radius: 15px;
 	margin-bottom: 20px;
 	margin-top: 20px;
